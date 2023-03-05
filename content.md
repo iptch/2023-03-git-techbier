@@ -1,5 +1,4 @@
 # Content
 
-Hello world ... (sad face)
-...and hello participant TNE!! (happy face)
-main change
+Hello word!
+This is some cherry sweet content I would like to have on TNE-main!
