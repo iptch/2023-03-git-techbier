@@ -1,4 +1,4 @@
 # Content
 
-Hello world ... (sad face)
-...and hello participant XDE!! (happy face)
+Hello word!
+This is some cherry sweet content I would like to have on XDE-main!
