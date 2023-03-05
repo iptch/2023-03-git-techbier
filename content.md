@@ -1,6 +1,4 @@
 # Content
 
-
-Hello world ... (sad face)
-...and hello participant JGR!! (happy face)
-test
+Hello word!
+This is some cherry sweet content I would like to have on JGR-main!
