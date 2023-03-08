@@ -1,4 +1,3 @@
 # Content
 
-Hello world ... (sad face)
-...and hello participant MFR!! (happy face)
+Hello beautiful world!
