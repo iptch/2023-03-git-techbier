@@ -1,4 +1,4 @@
 # Content
 
-Hello world ... (sad face)
-...and hello participant MZU!! (happy face)
+Hello beautiful world!
+Oops forgot to add: Hope you are enjoying the techbier so far!
