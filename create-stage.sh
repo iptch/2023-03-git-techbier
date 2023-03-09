@@ -39,9 +39,9 @@ git pull
 log "generating initial commit"
 git switch -c $main
 cat >README.md  << EOF
-# Personalized Git Techbier for ${num^^}
+# Personalized Git Techbier for ${num}
 
-> File for participant ${num^^}
+> File for participant ${num}
 
 This file is the main test file on which you will perform your exercises. A
 secondary file 'content.md' is used for  exercises.
