@@ -1,4 +1,4 @@
 # Content
 
-Hello world ... (sad face)
-...and hello participant MMT!! (happy face)
+Hello word!
+This is some cherry sweet content I would like to have on MMT-main!
