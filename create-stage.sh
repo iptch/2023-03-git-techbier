@@ -10,6 +10,7 @@ merge="$num-merge-branch"
 rebase="$num-rebase-branch"
 thhgttg="$num-life"
 cherry="$num-cherry-pick-branch"
+current="$(git branch --show-current)"
 declare -a branches=($merge $rebase $cherry $thhgttg)
 
 function log {
@@ -32,7 +33,6 @@ git push -d $remote "$num-v1.0.0" || true
 [ -z ${CLEANUP_ONLY+x} ] || exit 0
 
 log "switching to base"
-git switch main
 git pull
 
 # create single starting commit
@@ -219,8 +219,8 @@ git add .
 git commit -m "feat: find the solution"
 git push
 
-# switch back to main branch to restore state
-log "switching back to main"
-git switch main
+# switch back to initial branch to restore state
+log "switching back to $current"
+git switch $current
 
 # vim:tw=80

@@ -1,18 +1,28 @@
 # Git Techbier
 
-## For Participants
+## Generate User Context
 
-Please do not act on branch `main`!! Switch to your personalized main branch before starting:
+Generate a user's context with:
+
+```bash
+bash ./create-stage.sh <user>
+```
+
+Then you can switch to your personalized branch and start the exercises:
 
 ```bash
 git switch <user>-main
 ```
 
-> For ipt people, `<user>` is your three letter abbreviation.
+Once your are done, run the following to clean up your environment:
 
-## Generate User Context
+```bash
+env CLEANUP_ONLY=true bash ./create-stage.sh <user>
+```
 
-Generate a user's context with:
+## Reset Environment
+
+Simply rerun the following in order to reset the environment:
 
 ```bash
 bash ./create-stage.sh <user>
